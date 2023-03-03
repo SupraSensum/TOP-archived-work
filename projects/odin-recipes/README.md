@@ -8,4 +8,4 @@ This is the first project in The Odin Project. We'll be showing recipes to show 
     - Text manipulation for accesibility purposes: bold, italic
     - etc.
 
-The lesson caleld for the creation of a dedicated repo... but I am stubborn and want to keep this all within a single repo on a single website. I'm looking forward to what potential problems this might cause down the road.
+The lesson called for the creation of a dedicated repo... but I am stubborn and want to keep this all within a single repo on a single website. I'm looking forward to what potential problems this might cause down the road.
