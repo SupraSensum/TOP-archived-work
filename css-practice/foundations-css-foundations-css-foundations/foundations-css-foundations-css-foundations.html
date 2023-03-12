@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Foundations: CSS Foundations: CSS Foundations</title>
+        <!-- Internal CSS Practice -->
         <style>
             p {
                 color: purple;
@@ -13,6 +14,16 @@
     </head>
     <body>
         <h1>Foundations: CSS Foundations: CSS Foundations</h1>
-            <p>This is a test using a CSS type selector (or element selector) to color all paragraph elements as purple.</p>
+            <p>This is a test using an internal CSS type selector (or element selector) to color this paragraph element as purple.</p>
+        <div class="ancestor">
+            <p>An external css class selector</p>
+            <!-- Ancestor/child CSS class selectors located in external CSS file -->
+            <div class="ancestor">
+                <p>Some ancestor paragraph stuff that shall be colored orange</p>
+                <div class="child">
+                    <p>Some child paragraph stuffs that shall be colored green</p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
