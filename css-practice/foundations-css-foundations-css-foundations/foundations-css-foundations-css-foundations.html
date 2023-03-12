@@ -7,23 +7,30 @@
         <title>Foundations: CSS Foundations: CSS Foundations</title>
         <!-- Internal CSS Practice -->
         <style>
-            p {
+            .ancestor, .rhapsody {
+                color: orange;
+            }
+            .ancestor .child {
+                color: green;
+            }
+            #m-m-m-make-me-happy {
                 color: purple;
             }
         </style>
     </head>
     <body>
         <h1>Foundations: CSS Foundations: CSS Foundations</h1>
-            <p>This is a test using an internal CSS type selector (or element selector) to color this paragraph element as purple.</p>
+            <p id="m-m-m-make-me-happy">This is a test using an internal CSS type selector (or element selector) to color this paragraph element as purple.</p>
         <div class="ancestor">
             <p>An external css class selector</p>
             <!-- Ancestor/child CSS class selectors located in external CSS file -->
             <div class="ancestor">
-                <p>Some ancestor paragraph stuff that shall be colored orange</p>
+                <p>This should be colored orange</p>
                 <div class="child">
-                    <p>Some child paragraph stuffs that shall be colored green</p>
+                    <p>This should be colored green</p>
                 </div>
             </div>
+            <p class="tomfoolery">Tomfoolery in orange</p>
         </div>
     </body>
 </html>
