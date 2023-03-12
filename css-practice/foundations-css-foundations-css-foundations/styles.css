@@ -1,0 +1,29 @@
+/* External CSS Practice */
+
+h1 {
+    color: blue;
+}
+
+.need-this.and-this {
+    color: red;
+}
+
+.and-a-little#bit-o-this {
+    color: teal;
+}
+
+/*
+Ugh, why is it that when I add this universal selector, supposedly the weakest of all,
+it overrides everything else with supposedly higher specificity?
+
+Note to self:
+ - Don't try to memorize everything
+ - Just write code!
+ - Browser might be overriding something. Lovely. C'est la vie.
+*/
+
+/* 
+* {
+    color: yellow;
+}
+*/
