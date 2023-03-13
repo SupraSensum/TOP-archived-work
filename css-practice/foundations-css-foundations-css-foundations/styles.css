@@ -14,6 +14,11 @@ h1 {
     background-color: #A0410A;
 }
 
+img {
+    height: auto;
+    width: 300px;
+}
+
 /*
 Ugh, why is it that when I add this universal selector, supposedly the weakest of all,
 it overrides everything else with supposedly higher specificity?
